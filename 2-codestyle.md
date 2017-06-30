@@ -80,3 +80,18 @@ my_shoe = Shoe(10.5)
 ## E. Container operations
 
 If you're playing with iterable items (lists, tuples, strings), consider using the `itertools` module.
+
+## F. Docstrings
+
+These are in-code documentation for yourself.
+
+Example:
+
+```python
+class Shoe(object):
+    """
+    Shoe object constructor.
+    """
+    def __init__(self, size):
+        self.size = size
+```
