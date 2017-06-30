@@ -48,4 +48,4 @@ Now, run a notebook session, find the `Nbextensions` tab, and enable the followi
 - Autopep8 (be sure to `conda install autopep8` in your environment)
 - Ruler (adds a vertical red line at the 79 character mark)
 
-Feel free to also enable more extensions!
+Feel free to also enable more extensions in the extensions tab!
