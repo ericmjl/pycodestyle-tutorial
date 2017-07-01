@@ -17,3 +17,4 @@ In addition to that, download and install the [Atom text editor][atom].
 Once you've done that, open up Atom, and install the following packages:
 
 - `linter-flake8`: This is the code linter!
+- `linter`: "Base linter with Cow powers!"
