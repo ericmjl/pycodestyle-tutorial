@@ -70,6 +70,42 @@ We generally use lower-case names.
 result = 23
 ```
 
+### Conditionals
+
+Newcomers to Python would oftentimes write something like the following:
+
+```python
+if cond == True:
+    # do something
+else:
+    # do another thing
+```
+
+However, the Pythonic way to handle it is as such:
+
+```python
+if cond:
+    # do something
+else:
+    # do another thing
+```
+
+Doing so omits unnecessary text.
+
+Sometimes, we also check whether the value of a variable is `None`. Newcomers to Python may write it this way:
+
+```python
+if value == None:
+    # do something
+```
+
+However, Pythonic code would be written as such instead:
+
+```python
+if value is None:
+    # do something
+```
+
 ### Object/Class Definitions
 
 Here's the only place we use capital letters.
@@ -91,10 +127,12 @@ If you're playing with iterable items (lists, tuples, strings), consider using t
 ```python
 my_nums = [1, 3, 5, 7, 9]
 
+# verbose
 my_new_nums = []
 for i in my_nums:
     my_new_nums.append(i+1)
 
+# pythonic
 my_new_nums = [i+1 for i in my_nums]
 
 ```
